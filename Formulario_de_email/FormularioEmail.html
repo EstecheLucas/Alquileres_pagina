@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de envio de correo por email</title>
+    <link rel="stylesheet" href="FormularioEmai.css">
+</head>
+<body>
+    <form id="form">
+        <h2>Escribanos sus consultas</h2>
+
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="name">
+        <label for="motivo">Motivo</label>
+        <input type="text" id="motivo" name="motivo"></label>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <label for="text">mensaje del correo</label>
+        <textarea name="text" id="text" cols="30" rows="10"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="FormEmail.js"></script>
+</body>
+</html>
