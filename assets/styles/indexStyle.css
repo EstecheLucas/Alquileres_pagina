@@ -1,0 +1,153 @@
+body {
+    width: 100%;
+    height: auto;
+}
+
+.custom-bg {
+    background-color: rgb(1, 30, 70);
+}
+.custom-bg:hover {
+    background-color: rgb(4, 53, 121);
+    transition: 0.9s;
+}
+.custom-bg:not(:hover) {
+    background-color: rgb(1, 30, 70);
+    transition: 0.9s;
+}
+.custom-bg2 {
+    background-color: rgb(176, 209, 255);
+}
+.custom-bg3{
+    background-color: rgb(1, 30, 70);
+}
+
+.btn-outline-custom {
+    border-color: #00265c;
+}
+
+.btn-outline-custom:hover {
+    border-color: #00265c;
+    color: #ffffff;
+    background-color: #00193B;
+}
+
+.border-custom {
+    border: 2px solid #002251
+}
+
+.button-custom {
+    background-color: #00193B;
+    color: #ffffff;
+}
+.button-custom:hover {
+    background-color: #022f6d;
+    color: #ffffff;
+}
+.button-custom2 {
+    background-color:  #00214e;
+    color: #ffffff;
+}
+
+.button-custom2:hover {
+    background-color: #00193B;
+    color: #ffffff;
+}
+
+.custom-color-a {
+    color: #00193B;
+}
+
+.custom-color-a:hover {
+    color: #012b67;
+    transition: 0.9s;
+}
+
+.custom-color-a:not(:hover) {
+    color: #00193B;
+    transition: 0.9s;
+}
+
+
+.nav-link:hover {
+    color: #00193B;
+    transform: scale(0.97);
+    transition: 0.9s;
+}
+
+.nav-link:not(:hover) {
+    color: #00193B;
+    transform: scale(1);
+    transition: 0.9s;
+}
+
+
+.muroAzul {
+    display: flex;
+    background-color: #00193B;
+    height: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.muroAzul:hover {
+    background-color: hsl(215, 94%, 21%);
+    transition: 0.9s;
+}
+
+.muroAzul:not(:hover) {
+    background-color: #00193B;
+    transition: 0.9s;
+}
+
+.muroAzul section {
+    color: white;
+    font-size: xx-large;
+    font-family: "Montserrat", sans-serif;
+}
+
+.muroAzul section:hover {
+    color: rgb(238, 238, 238);
+    transition: 0.9s;
+    font-weight: 600
+}
+
+.muroAzul section:not(:hover) {
+    color: rgb(255, 255, 255);
+    transition: 0.9s;
+}
+
+.iconStyle {
+    font-size: x-large;
+}
+
+.accessForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 15px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background-color: #022f6d;
+    border-radius: 5px;
+    border: 2px solid  #ffffff;
+}
+.accessForm:hover {
+    border-radius: 9px;
+    border: 2px solid rgb(221, 221, 221);
+    transition: 0.9s;
+}
+.accessForm:not(:hover) {
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);    
+    transition: 0.9s;
+}
+
+.accessForm div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
