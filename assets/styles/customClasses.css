@@ -1,8 +1,8 @@
 .custom-bg {
-    background-color: rgb(1, 30, 70);
+    background-color: hsl(215, 97%, 14%);
 }
 .custom-bg:hover {
-    background-color: rgb(4, 53, 121);
+    background-color: rgb(3, 44, 101);
     transition: 0.9s;
 }
 .custom-bg:not(:hover) {
