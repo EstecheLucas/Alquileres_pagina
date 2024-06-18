@@ -1,0 +1,127 @@
+.custom-bg {
+    background-color: rgb(1, 30, 70);
+}
+.custom-bg:hover {
+    background-color: rgb(4, 53, 121);
+    transition: 0.9s;
+}
+.custom-bg:not(:hover) {
+    background-color: rgb(1, 30, 70);
+    transition: 0.9s;
+}
+.custom-bg2 {
+    background-color: rgb(176, 209, 255);
+}
+.custom-bg3{
+    background-color: rgb(1, 30, 70);
+}
+
+.btn-outline-custom {
+    border-color: #00265c;
+}
+
+.btn-outline-custom:hover {
+    border-color: #00265c;
+    color: #ffffff;
+    background-color: #00193B;
+}
+
+.border-custom {
+    border: 2px solid #002251
+}
+
+.button-custom {
+    background-color: #00193B;
+    color: #ffffff;
+}
+.button-custom:hover {
+    background-color: #022f6d;
+    color: #ffffff;
+}
+.button-custom2 {
+    background-color:  #00214e;
+    color: #ffffff;
+}
+
+.button-custom2:hover {
+    background-color: #00193B;
+    color: #ffffff;
+}
+
+.custom-color-a {
+    color: #00193B;
+}
+
+.custom-color-a:hover {
+    color: #012b67;
+    transition: 0.9s;
+}
+
+.custom-color-a:not(:hover) {
+    color: #00193B;
+    transition: 0.9s;
+}
+
+.iconStyle {
+    font-size: x-large;
+}
+
+.accessForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 15px;
+    width: 300px;
+    height: auto;
+    margin: auto;
+    background-color: #022f6d;
+    border-radius: 5px;
+    border: 2px solid  #ffffff;
+}
+.accessForm:hover {
+    border-radius: 9px;
+    border: 2px solid rgb(221, 221, 221);
+    transition: 0.9s;
+}
+.accessForm:not(:hover) {
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);    
+    transition: 0.9s;
+}
+.accessForm div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}
+
+.contactForm {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding: 15px;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    background-color: #022f6d;
+    border-radius: 5px;
+    border: 2px solid  #ffffff;
+}
+.contactForm:hover {
+    border-radius: 9px;
+    border: 2px solid rgb(221, 221, 221);
+    transition: 0.9s;
+}
+.contactForm:not(:hover) {
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);    
+    transition: 0.9s;
+}
+.contactForm div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    align-items: center;
+}

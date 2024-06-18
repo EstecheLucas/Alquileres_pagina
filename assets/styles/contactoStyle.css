@@ -3,22 +3,11 @@ body {
     height: auto;
 }
 
-.Email {
-    display: flex;
-    flex-direction: column;
-    gap: 2px;
-    border: solid 1px black;
-    padding: 10px;
-    width: 600px;
-    height: auto;
-    margin: auto;
-}
-
 .image-container {
     position: relative;
     width: 100%;
-    max-width: 100%; /* Ajusta el tamaño máximo según sea necesario */
-    margin: auto; /* Centra el contenedor */
+    max-width: 100%;
+    margin: auto; 
 }
 
 .image-container img {
@@ -33,15 +22,15 @@ body {
     transform: translate(-50%, -50%);
     color: white;
     background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px 20px; /* Ajusta el padding para dispositivos más pequeños */
+    padding: 10px 20px; 
     border-radius: 5px;
     text-align: center;
-    font-size: 1.2em; /* Ajusta el tamaño del texto */
+    font-size: 1.2em; 
 }
 
 @media (max-width: 600px) {
     .text-overlay {
-        font-size: 1em; /* Reduce el tamaño del texto en pantallas pequeñas */
-        padding: 8px 16px; /* Ajusta el padding en pantallas pequeñas */
+        font-size: 1em;
+        padding: 8px 16px;
     }
 }
