@@ -42,11 +42,23 @@
     background-color:  #00214e;
     color: #ffffff;
 }
-
 .button-custom2:hover {
     background-color: #00193B;
     color: #ffffff;
 }
+
+.button-custom3 {
+    background-color:  #ffffff;
+    color: #000000;
+
+}
+.button-custom3:hover {
+    background-color:  #002355;
+    color: #ffffff;
+    transform: scale(0.96);
+    transition: 0.1s;
+}
+
 
 .custom-color-a {
     color: #00193B;

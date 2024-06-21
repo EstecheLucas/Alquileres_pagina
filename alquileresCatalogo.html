@@ -16,7 +16,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-    <link rel="stylesheet" href="assets/styles/contactoStyle.css" />
+    <link rel="stylesheet" href="assets/styles/catalogoStyle.css" />
     <link rel="stylesheet" href="assets/styles/customClasses.css">
 </head>
 
@@ -33,10 +33,10 @@
                 <div class="collapse navbar-collapse" id="navbarColor03">
                     <ul class="navbar-nav me-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="index.html">Inicio </a>
+                            <a class="nav-link active" href="index.html">Inicio </a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" href="alquileresCatalogo.html">Alquileres</a>
+                            <a class="nav-link" href="alquileresCatalogo.html">Alquileres</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="contacto.html">Contacto</a>
@@ -148,49 +148,247 @@
         </nav>
     </header>
     <main>
-        <main>
-            <div class="container">
-                <div class="row text-center">
-                    <div class="col-6 col-md-4">
-                        <div class="card text-white custom-bg">
-                            <div class="card-body">
-                                <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
-                                <h4 class="card-title">Primary card title</h4>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and
-                                    make up the bulk of the card's content.
-                                </p>
+        <br>
+        <p class="text-center custom-color-a h3">Encuentra Tu Alquiler</p>
+        <br>
+        <div class="container muroAzul text-light">
+            <section>
+                <div class="container-fluid ">
+                    <form class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <label for="opcionTipoAlquiler">Tipo de Alquiler:</label>
+                                <select class="form-control" id="opcionTipoAlquiler">
+                                    <option value="Vivienda">Vivienda</option>
+                                    <option value="Salon">Salón</option>
+                                    <option value="Quinta">Quinta</option>
+                                    <option value="Quincho">Quincho</option>
+                                </select>
+                            </div>
+                            <div class="col-md-2">
+                                <label for="opcionProvincia">Provincia:</label>
+                                <select class="form-control" id="opcionProvincia">
+                                    <option value="Formosa">Formosa</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="opcionPrecio">Precio:</label>
+                                <select class="form-control" id="opcionPrecio">
+                                    <option value="Menor-Precio">Menor Precio</option>
+                                    <option value="Mayor-Precio">Mayor Precio</option>
+                                </select>
+                            </div>
+                            <div class="col-md-3">
+                                <label for="opcionBarrio">Barrio:</label>
+                                <select class="form-control" id="opcionBarrio">
+                                    <option value="12 DE OCTUBRE">12 DE OCTUBRE</option>
+                                    <option value="2 DE ABRIL">2 DE ABRIL</option>
+                                    <option value="BARRIO MILITAR">BARRIO MILITAR</option>
+                                    <option value="OBRERO">OBRERO</option>
+                                    <option value="BARRIO VIAL">BARRIO VIAL</option>
+                                    <option value="DON BOSCO">DON BOSCO</option>
+                                    <option value="EL MISTOL">EL MISTOL</option>
+                                    <option value="EL RESGUARDO">EL RESGUARDO</option>
+                                    <option value="MANUEL BELGRANO">MANUEL BELGRANO</option>
+                                    <option value="EMILIO TOMAS">EMILIO TOMAS</option>
+                                    <option value="EVA PERÓN">EVA PERÓN</option>
+                                    <option value="GUADALUPE">GUADALUPE</option>
+                                    <option value="INDEPENDENCIA">INDEPENDENCIA</option>
+                                    <option value="J.F. KENNEDY">J.F. KENNEDY</option>
+                                    <option value="JUAN D. PERÓN">JUAN D. PERÓN</option>
+                                    <option value="LA FLORESTA">LA FLORESTA</option>
+                                    <option value="LAS DELICIAS">LAS DELICIAS</option>
+                                    <option value="LIBORSI">LIBORSI</option>
+                                    <option value="MARIANO MORENO">MARIANO MORENO</option>
+                                    <option value="NANQOM">NANQOM</option>
+                                    <option value="SAN AGUSTÍN">SAN AGUSTÍN</option>
+                                    <option value="SAN FRANCISCO">SAN FRANCISCO</option>
+                                    <option value="SAN JOSÉ OBRERO">SAN JOSÉ OBRERO</option>
+                                    <option value="SAN MARTÍN">SAN MARTÍN</option>
+                                    <option value="SAN MIGUEL">SAN MIGUEL</option>
+                                    <option value="SAN PEDRO">SAN PEDRO</option>
+                                    <option value="SANTA ROSA">SANTA ROSA</option>
+                                    <option value="SIMÓN BOLIVAR">SIMÓN BOLIVAR</option>
+                                    <option value="VENEZUELA">VENEZUELA</option>
+                                    <option value="VILLA DEL ROSARIO">VILLA DEL ROSARIO</option>
+                                    <option value="VILLA HERMOSA">VILLA HERMOSA</option>
+                                    <option value="VILLA LA PILAR">VILLA LA PILAR</option>
+                                    <option value="VILLA LOURDES">VILLA LOURDES</option>
+                                    <option value="VIRGEN DE LUJÁN">VIRGEN DE LUJÁN</option>
+                                    <option value="LA ESPERANZA">LA ESPERANZA</option>
+                                    <option value="7 DE MAYO">7 DE MAYO</option>
+                                    <option value="ANTENOR GAUNA">ANTENOR GAUNA</option>
+                                    <option value="1° DE MAYO">1° DE MAYO</option>
+                                    <option value="EL PORVENIR">EL PORVENIR</option>
+                                    <option value="BERNARDINO RIVADAVIA">BERNARDINO RIVADAVIA</option>
+                                    <option value="VIRGEN DE ITATÍ">VIRGEN DE ITATÍ</option>
+                                    <option value="JUAN M. DE ROSAS">JUAN M. DE ROSAS</option>
+                                    <option value="LA PAZ">LA PAZ</option>
+                                    <option value="DIVINO NIÑO JESÚS">DIVINO NIÑO JESÚS</option>
+                                    <option value="SAN PÍO X">SAN PÍO X</option>
+                                    <option value="B° PIERO">B° PIERO</option>
+                                    <option value="PARQUE INDUSTRIAL">PARQUE INDUSTRIAL</option>
+                                    <option value="SAN JUAN BAUTISTA">SAN JUAN BAUTISTA</option>
+                                    <option value="16 DE JULIO">16 DE JULIO</option>
+                                    <option value="SAG. CORAZÓN DE MARÍA">SAG. CORAZÓN DE MARÍA</option>
+                                    <option value="ARTURO ILLIA">ARTURO ILLIA</option>
+                                    <option value="HIPÓLITO IRIGOYEN">HIPÓLITO IRIGOYEN</option>
+                                    <option value="SAN CAYETANO">SAN CAYETANO</option>
+                                    <option value="FACUNDO QUIROGA">FACUNDO QUIROGA</option>
+                                    <option value="SAN ANDRES">SAN ANDRES</option>
+                                    <option value="SANTA LUCÍA">SANTA LUCÍA</option>
+                                    <option value="LA VIRGEN NIÑA">LA VIRGEN NIÑA</option>
+                                    <option value="17 DE OCTUBRE">17 DE OCTUBRE</option>
+                                    <option value="LIBERTAD">LIBERTAD</option>
+                                    <option value="ISLAS MALVINAS">ISLAS MALVINAS</option>
+                                    <option value="COLLUCCIO">COLLUCCIO</option>
+                                    <option value="SAN ISIDRO LABRADOR">SAN ISIDRO LABRADOR</option>
+                                    <option value="ROBERTO SOTELO">ROBERTO SOTELO</option>
+                                    <option value="8 DE MARZO">8 DE MARZO</option>
+                                    <option value="CO.VI.FOL.">CO.VI.FOL.</option>
+                                    <option value="FONTANA">FONTANA</option>
+                                    <option value="SOLANO LIMA">SOLANO LIMA</option>
+                                    <option value="LA ESTRELLA">LA ESTRELLA</option>
+                                    <option value="20 de JULIO">20 de JULIO</option>
+                                    <option value="REPÚBLICA ARGENTINA">REPÚBLICA ARGENTINA</option>
+                                    <option value="8 DE OCTUBRE">8 DE OCTUBRE</option>
+                                    <option value="EL QUEBRANTO">EL QUEBRANTO</option>
+                                    <option value="EL PALOMAR">EL PALOMAR</option>
+                                    <option value="STELLA MARIS">STELLA MARIS</option>
+                                    <option value="LOS INMIGRANTES">LOS INMIGRANTES</option>
+                                    <option value="LAS ORQUIDEAS">LAS ORQUIDEAS</option>
+                                    <option value="Dr. RICARDO BALBÍN">Dr. RICARDO BALBÍN</option>
+                                    <option value="SAN JUAN">SAN JUAN</option>
+                                    <option value="SAN ANTONIO">SAN ANTONIO</option>
+                                    <option value="PARQUE URBANO">PARQUE URBANO</option>
+                                    <option value="ARTURO ILLIA II">ARTURO ILLIA II</option>
+                                </select>
+                            </div>
+                            <div class="col-md-1 mt-4">
+                                <button class="btn button-custom3" type="submit">Buscar</button>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-6 col-md-4">
-                        <div class="card text-white custom-bg">
-                            <div class="card-body">
-                                <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
-                                <h4 class="card-title">Primary card title</h4>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and
-                                    make up the bulk of the card's content.
-                                </p>
-                            </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+        <p>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <div class="card text-white custom-bg">
+                        <div class="card-body">
+                            <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
+                            <h4 class="card-title">Titulo representativo del alquiler</h4>
+                            <p class="card-text">
+                                Direccion del alquiler:
+                            </p>
                         </div>
                     </div>
-                    <div class="col-6 col-md-4">
-                        <div class="card text-white custom-bg">
-                            <div class="card-body">
-                                <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
-                                <h4 class="card-title">Primary card title</h4>
-                                <p class="card-text">
-                                    Some quick example text to build on the card title and
-                                    make up the bulk of the card's content.
-                                </p>
-                            </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card text-white custom-bg">
+                        <div class="card-body">
+                            <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
+                            <h4 class="card-title">Titulo representativo del alquiler</h4>
+                            <p class="card-text">
+                                Direccion del alquiler:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card text-white custom-bg">
+                        <div class="card-body">
+                            <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
+                            <h4 class="card-title">Titulo representativo del alquiler</h4>
+                            <p class="card-text">
+                                Direccion del alquiler:
+                            </p>
                         </div>
                     </div>
                 </div>
             </div>
-        </main>
-
+        </div>
+        </p>
+        <p>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <div class="card text-white custom-bg">
+                        <div class="card-body">
+                            <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
+                            <h4 class="card-title">Titulo representativo del alquiler</h4>
+                            <p class="card-text">
+                                Direccion del alquiler:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card text-white custom-bg">
+                        <div class="card-body">
+                            <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
+                            <h4 class="card-title">Titulo representativo del alquiler</h4>
+                            <p class="card-text">
+                                Direccion del alquiler:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card text-white custom-bg">
+                        <div class="card-body">
+                            <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
+                            <h4 class="card-title">Titulo representativo del alquiler</h4>
+                            <p class="card-text">
+                                Direccion del alquiler:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </p>
+        <p>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-4">
+                    <div class="card text-white custom-bg">
+                        <div class="card-body">
+                            <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
+                            <h4 class="card-title">Titulo representativo del alquiler</h4>
+                            <p class="card-text">
+                                Direccion del alquiler:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card text-white custom-bg">
+                        <div class="card-body">
+                            <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
+                            <h4 class="card-title">Titulo representativo del alquiler</h4>
+                            <p class="card-text">
+                                Direccion del alquiler:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-4">
+                    <div class="card text-white custom-bg">
+                        <div class="card-body">
+                            <img src="assets/img/casa-ej.jpg" class="img-fluid mb-3" alt="" />
+                            <h4 class="card-title">Titulo representativo del alquiler</h4>
+                            <p class="card-text">
+                                Direccion del alquiler:
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </p>
     </main>
     <footer class="bg-light text-center">
         <div class="container">
@@ -231,3 +429,13 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

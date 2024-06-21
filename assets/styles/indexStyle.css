@@ -1,6 +1,6 @@
-body {
+body{
+    height: 100%;
     width: 100%;
-    height: auto;
 }
 
 .muroAzul {
@@ -37,41 +37,4 @@ body {
 .muroAzul section:not(:hover) {
     color: rgb(255, 255, 255);
     transition: 0.9s;
-}
-
-.cookie-banner {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 15px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-.cookie-banner p {
-    margin: 0;
-    padding: 0 10px;
-}
-
-.cookie-banner button {
-    margin: 0 5px;
-    padding: 5px 10px;
-    border: none;
-    cursor: pointer;
-}
-
-#accept-cookies {
-    background-color: #4CAF50; /* Green */
-    color: white;
-}
-
-#reject-cookies {
-    background-color: #f44336; /* Red */
-    color: white;
 }
